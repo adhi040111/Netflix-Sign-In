@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(bg6.jpg);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+    
+}
+
+.logo img{
+    width: 167px;
+    height: 100px;
+    padding-left: 15px;
+    
+}
+
+.container{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    width: 440px;
+    height: 560px;
+    margin: auto;
+    padding: 30px; 
+    border-radius: 10px;  
+    margin-bottom: 100px;
+}
+
+.input-group input{
+    border: none;
+    color: white;
+    background-color: rgb(51, 51, 51);
+    width: 314px;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: 45px;
+    margin-bottom: 10px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 16px;
+    border-radius: 5px;
+    line-height: 50px;
+    font-size: 16px;
+    transform: matrix(1, 0, 0, 1, 1, -10);
+
+}
+
+.input-group input:focus{
+    outline: 0;
+}
+
+
+h2{
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 45px;
+    margin-bottom: 30px;
+}
+
+button{
+    width: 355px;
+    margin-top: 17px;
+    margin-left: 45.5px;
+    color: white;
+    font-size: 16px;
+    line-height: 50px;
+    background-color: rgb(229, 9, 20);
+    border-radius: 5px;
+    border: none;
+}
+
+.chxbox{
+    margin-left: 45px;
+    margin-top: 10px;
+    color: rgb(125, 119, 119);
+}
+
+input[type=checkbox]{
+    width: 25px;
+    height: 18px;
+    border-radius: 5px;
+    margin-top: 10px;  
+}
+
+.chxbox a{
+    margin-left: 160px;
+    margin-top: 10px;    
+    color: rgb(125, 119, 119);
+}
+
+.chxbox a:hover{
+    text-decoration: underline cornsilk;
+    
+}
+
+.signup{
+    margin-left: 45px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: rgb(125, 119, 119);
+}
+
+.signup a{
+    margin-left: 165px;
+    color: white;
+}
+
+.signup a:hover{
+    text-decoration: underline;
+}
+
+.bot{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.bot a{
+    color: blue;
+    margin-left: 0px;
+    padding: 5px;
+}
+
+.footer{
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: rgb(125, 119, 119);
+}
+
+.foot1{
+    
+    margin-left: 200px;
+    padding: 50px;
+    padding-left: 0px;
+}
+
+.foot1 a:hover{
+    text-decoration: underline;
+}
+
+.foot2{
+    display: flex;
+}
+
+.faq{
+    margin-left: 200px;
+}
+
+.faq:hover{
+    text-decoration: underline;
+}
+
+.help{
+    margin-left: 150px;
+    width: 100px;
+}
+
+.help:hover{
+    text-decoration: underline;
+}
+
+.terms{
+    margin-left: 150px;
+    width: 100px;
+}
+
+.terms:hover{
+    text-decoration: underline;
+}
+
+.privacy{
+    margin-left: 150px;
+}
+
+.privacy:hover{
+    text-decoration: underline;
+}
+
+.foot3{
+    display: flex;
+}
+
+.cookie{
+    margin-top: 20px;
+    margin-left: 200px;
+}
+
+.cookie:hover{
+    text-decoration: underline;
+}
+
+.corp{
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+.corp:hover{
+    text-decoration: underline;
+}
+
+.dropbox{
+    margin-top: 30px;
+    margin-left: 200px;
+}
