@@ -7,6 +7,7 @@ body{
     background: url(bg6.jpg);
     background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: darken;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;;
     
 }
 
@@ -40,7 +41,7 @@ body{
     margin-bottom: 15px;
     width: 292px;
     border-radius: 5px;
-    color: rgb(125, 119, 119);
+    color: whitesmoke;
 }
 
 .input-group .input2{
@@ -53,6 +54,7 @@ body{
     margin-left: 45px;
     width: 292px;
     border-radius: 5px;
+    color: whitesmoke;
     
 }
 
@@ -62,6 +64,8 @@ body{
 
 
 h2{
+    font-size: 32px;
+    font-weight: 650;
     text-align: left;
     margin-top: 30px;
     margin-left: 45px;
