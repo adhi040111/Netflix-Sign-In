@@ -14,6 +14,7 @@ body{
     width: 167px;
     height: 100px;
     padding-left: 15px;
+    cursor: pointer;
     
 }
 
@@ -28,24 +29,31 @@ body{
     margin-bottom: 100px;
 }
 
-.input-group input{
-    border: none;
-    color: white;
+.input-group .input1{
+    flex: 1;
+    border: 0;
+    outline: 0;
+    margin-left: 20px;
     background-color: rgb(51, 51, 51);
-    width: 314px;
-    font-size: 15px;
-    margin-top: 20px;
+    padding: 15px 30px;
     margin-left: 45px;
-    margin-bottom: 10px;
-    padding-bottom: 0px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 16px;
+    margin-bottom: 15px;
+    width: 292px;
     border-radius: 5px;
-    line-height: 50px;
-    font-size: 16px;
-    transform: matrix(1, 0, 0, 1, 1, -10);
+    color: rgb(125, 119, 119);
+}
 
+.input-group .input2{
+    flex: 1;
+    border: 0;
+    outline: 0;
+    margin-left: 20px;
+    background-color: rgb(51, 51, 51);
+    padding: 15px 30px;
+    margin-left: 45px;
+    width: 292px;
+    border-radius: 5px;
+    
 }
 
 .input-group input:focus{
@@ -61,15 +69,20 @@ h2{
 }
 
 button{
-    width: 355px;
-    margin-top: 17px;
-    margin-left: 45.5px;
-    color: white;
-    font-size: 16px;
-    line-height: 50px;
-    background-color: rgb(229, 9, 20);
+    flex: 1;
+    border: 0;
+    outline: 0;
+    margin-top: 30px;
+    margin-left: 20px;
+    background-color: rgb(299, 9, 20);
+    padding: 15px 30px;
+    margin-left: 45px;
+    width: 352px;
     border-radius: 5px;
-    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: aliceblue;
+    cursor: pointer;
 }
 
 .chxbox{
@@ -89,10 +102,12 @@ input[type=checkbox]{
     margin-left: 160px;
     margin-top: 10px;    
     color: rgb(125, 119, 119);
+    text-decoration: none;
 }
 
 .chxbox a:hover{
-    text-decoration: underline cornsilk;
+    text-decoration: underline rgb(125, 119, 119) ;
+
     
 }
 
@@ -101,10 +116,11 @@ input[type=checkbox]{
     margin-top: 50px;
     margin-bottom: 50px;
     color: rgb(125, 119, 119);
+    cursor: pointer;
 }
 
 .signup a{
-    margin-left: 165px;
+    
     color: white;
 }
 
@@ -124,7 +140,7 @@ input[type=checkbox]{
 }
 
 .footer{
-    height: 400px;
+    height: 300px;
     background-color: rgba(0, 0, 0, 0.8);
     color: rgb(125, 119, 119);
 }
