@@ -1,6 +1,8 @@
 *{
     margin: 0;
     padding: 0;
+    width: auto;
+    height: auto;
 }
 
 body{
@@ -29,6 +31,16 @@ body{
     border-radius: 10px;  
     margin-bottom: 100px;
 }
+
+h2{
+    font-size: 32px;
+    font-weight: 650;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 45px;
+    margin-bottom: 30px;
+}
+
 
 .input-group .input1{
     flex: 1;
@@ -62,16 +74,6 @@ body{
     outline: 0;
 }
 
-
-h2{
-    font-size: 32px;
-    font-weight: 650;
-    text-align: left;
-    margin-top: 30px;
-    margin-left: 45px;
-    margin-bottom: 30px;
-}
-
 button{
     flex: 1;
     border: 0;
@@ -93,13 +95,14 @@ button{
     margin-left: 45px;
     margin-top: 10px;
     color: rgb(125, 119, 119);
+    border: none;
 }
 
 input[type=checkbox]{
     width: 25px;
     height: 18px;
     border-radius: 5px;
-    margin-top: 10px;  
+    margin-top: 10px;    
 }
 
 .chxbox a{
@@ -117,7 +120,7 @@ input[type=checkbox]{
 
 .signup{
     margin-left: 45px;
-    margin-top: 50px;
+    margin-top: 75px;
     margin-bottom: 50px;
     color: rgb(125, 119, 119);
     cursor: pointer;
@@ -133,8 +136,9 @@ input[type=checkbox]{
 }
 
 .bot{
-    width: 100%;
+    width: 300px;
     margin-top: 10px;
+    font-size: 14px;
 }
 
 .bot a{
@@ -223,4 +227,74 @@ input[type=checkbox]{
 .dropbox{
     margin-top: 30px;
     margin-left: 200px;
+}
+
+@media screen and (max-width: 740px) {
+    body{
+        background-color: black;
+    }
+    
+    .container{
+        border: 1px solid white;
+        padding: 0px;
+        margin: 0px;
+        width: auto;
+    }
+
+    .input-group .input1{
+        width: 80%;
+    }
+    
+    .input-group .input2{
+        width: 80%;
+    }
+
+    button{
+        width: 88%;
+    }
+
+    .chxbox a{
+        margin-left: 415 px;
+    }
+
+    .bot{
+        width: 100%;
+    }
+
+    .foot1{
+        margin-left: 40px;        
+    } 
+
+    .faq{
+        margin-left: 42px;
+    }
+    
+    .help{
+        margin-left: 150px;
+        width: 100px;
+    }
+
+    .terms{
+        margin-left: 150px;
+        width: 100px;
+    }
+
+    .privacy{
+        margin-left: 150
+    }
+       
+    .foot3{
+        display: flex;
+    }
+    
+    .cookie{
+        margin-top: 20px;
+        margin-left: 42px;
+    }
+       
+    .corp{
+        margin-top: 20px;
+        margin-left: 60px;
+    }
+
 }
